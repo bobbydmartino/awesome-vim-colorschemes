@@ -22,7 +22,12 @@ hi Function ctermfg=Blue guifg=#0055AA
 hi Number ctermfg=Green guifg=#008000
 hi Operator ctermfg=Magenta guifg=#AA23FF
 
-hi vimFgBgAttrib guifg=#FFA500 guibg=#000000 gui=none
+
+hi NonText ctermfg=235 ctermbg=0 cterm=NONE guifg=#2C2C2C guibg=#000000 gui=NONE
+hi Normal ctermfg=255 ctermbg=0 cterm=NONE guifg=#EEEEEE guibg=#000000 gui=NONE
+
+
+
 
 
 " from minimalist
@@ -34,12 +39,6 @@ hi IncSearch        ctermfg=234     ctermbg=75      cterm=NONE      guifg=#1C1C1
 hi LineNr           ctermfg=59      ctermbg=234     cterm=NONE      guifg=#5F5F5F       guibg=#1C1C1C   gui=NONE
 hi MatchParen       ctermfg=NONE    ctermbg=NONE    cterm=underline guifg=NONE          guibg=NONE      gui=underline
 hi MoreMsg          ctermfg=150     ctermbg=NONE    cterm=NONE      guifg=#AFD787       guibg=NONE      gui=NONE
-
-
-hi NonText ctermfg=235 ctermbg=0 cterm=NONE guifg=#2C2C2C guibg=#000000 gui=NONE
-hi Normal ctermfg=255 ctermbg=0 cterm=NONE guifg=#EEEEEE guibg=#000000 gui=NONE
-
-
 hi Pmenu            ctermfg=NONE    ctermbg=NONE    cterm=NONE      guifg=NONE          guibg=NONE      gui=NONE
 hi PmenuSel         ctermfg=NONE    ctermbg=59      cterm=NONE      guifg=NONE          guibg=#5F5F5F   gui=NONE
 hi Question         ctermfg=150     ctermbg=NONE    cterm=NONE      guifg=#AFD787       guibg=NONE      gui=bold

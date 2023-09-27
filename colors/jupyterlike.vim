@@ -21,6 +21,8 @@ hi Function ctermfg=Blue guifg=#0055AA
 hi Number ctermfg=Green guifg=#008000
 
 
-syn match pythonMethodCall "\.\zs\w\+\ze(" 
+syn match pythonMethodCall "\.\zs\w\+\ze("
 hi pythonMethodCall ctermfg=Blue guifg=#0055AA
+
+hi pythonFString ctermfg=Magenta guifg=#AA23FF
 

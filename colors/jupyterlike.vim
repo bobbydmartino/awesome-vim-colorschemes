@@ -7,6 +7,7 @@ let g:colors_name = "jupyterlike"
 
 hi LineNr ctermfg=0 guifg=#000000
 hi CursorLineNr ctermfg=0 guifg=#000000
+hi SignColumn ctermbg=0 guibg=#000000
 
 " Based on Jupyter's default colors:
 hi Comment ctermfg=Cyan guifg=#408080 " Comments in Jupyter are greenish

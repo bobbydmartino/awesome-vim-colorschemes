@@ -18,4 +18,9 @@ hi Variable ctermfg=White guifg=#DFDFDF " Variables (Note: Vim might not perfect
 hi Type ctermfg=Blue guifg=#0055AA " Type built-in functions
 hi Statement ctermfg=Green guifg=#008000
 hi Function ctermfg=Blue guifg=#0055AA
+hi Number ctermfg=Green guifg=#008000
+
+
+syn match pythonMethodCall "\.\zs\w\+\ze(" 
+hi pythonMethodCall ctermfg=Blue guifg=#0055AA
 

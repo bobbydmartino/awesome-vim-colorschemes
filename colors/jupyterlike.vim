@@ -3,6 +3,8 @@ if exists("syntax_on")
   syntax reset
 endif
 
+set background=dark
+
 let g:colors_name = "jupyterlike"
 
 hi LineNr ctermfg=235 guifg=#2e2e2e

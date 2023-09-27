@@ -37,7 +37,7 @@ hi MoreMsg          ctermfg=150     ctermbg=NONE    cterm=NONE      guifg=#AFD78
 " hi NonText          ctermfg=234     ctermbg=234     cterm=NONE      guifg=#1C1C1C       guibg=#1C1C1C   gui=NONE
 hi NonText ctermfg=235 ctermbg=234 cterm=NONE guifg=#2C2C2C guibg=#1C1C1C gui=NONE
 
-hi Normal           ctermfg=255     ctermbg=234     cterm=NONE      guifg=#EEEEEE       guibg=#1C1C1C   gui=NONE
+" hi Normal           ctermfg=255     ctermbg=234     cterm=NONE      guifg=#EEEEEE       guibg=#1C1C1C   gui=NONE
 
 
 hi Pmenu            ctermfg=NONE    ctermbg=NONE    cterm=NONE      guifg=NONE          guibg=NONE      gui=NONE

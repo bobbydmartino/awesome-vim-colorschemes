@@ -24,3 +24,5 @@ hi Operator ctermfg=Magenta guifg=#AA23FF
 
 
 
+" from minimalist
+hi Directory        ctermfg=179     ctermbg=NONE    cterm=NONE      guifg=#D7AF5F       guibg=NONE      gui=NONE

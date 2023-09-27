@@ -5,8 +5,8 @@ endif
 
 let g:colors_name = "jupyterlike"
 
-hi LineNr ctermfg=0 guifg=#000000
-hi CursorLineNr ctermfg=0 guifg=#000000
+hi LineNr ctermfg=235 guifg=#2e2e2e
+hi CursorLineNr ctermfg=240 guifg=#3a3a3a
 hi SignColumn ctermbg=0 guibg=#000000
 
 " Based on Jupyter's default colors:
